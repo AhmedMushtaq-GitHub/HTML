@@ -1,23 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daily Goals</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ahmed Mushtaq</h1>
-    <h2>Ahmed Mushtaq</h2>
-    <h3>Ahmed Mushtaq</h3>
-    <h4>Ahmed Mushtaq</h4>
-    <h5>Ahmed Mushtaq</h5>
-    <h6>Ahmed Mushtaq</h6>
-    <h1>This is the Main Heading</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eaque repellendus, voluptatum repudiandae asperiores doloremque tempore fugiat voluptatibus officia sequi autem iusto quas totam natus vero, at magni labore accusantium.</p>
-<h2>This is the Sub_heading</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident assumenda esse enim, aliquid velit quos ducimus, dolores cumque ipsam pariatur soluta ipsum? Fugit quod quaerat labore quo! Nulla, necessitatibus!</p>
-<h3>Another sub_heading</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dicta id vitae repellendus exercitationem accusamus! Recusandae doloremque ratione ex, atque voluptates optio repudiandae quisquam labore. Animi fuga quos accusamus quas.</p>
+    <h1 id="heading">DAILY GOALS</h1>
+    <div class="container">
+        <form>
+            <input type="text" id="title" placeholder="Title Here" required>
+            <textarea name="" id="description" placeholder="Description Here" required></textarea>
+            <button type="submit">Add</button>
+        </form>
+
+        <div class="task">
+            <div>
+                <p>Title Here</p>
+                <span>Description Here</span>
+            </div>
+            <button class="deleteBtn">-</button>
+        </div> 
+    </div>
 </body>
+<script src="script.js"></script>
 </html>
